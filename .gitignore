@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+.next/
+dist/
+
+# Expo local directories
+.expo/
+.expo-shared/
+
+# Environment files
+.env
+.env.local
+
+# OS and editor artefacts
+.DS_Store
+Thumbs.db
+.vscode/
