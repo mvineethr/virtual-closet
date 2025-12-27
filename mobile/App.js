@@ -1,5 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react';
+<<<<<<< HEAD
 import { StyleSheet, Text, View, Button, FlatList, Image, ActivityIndicator, TouchableOpacity } from 'react-native';
+=======
+import { StyleSheet, Text, View, Button, FlatList, Image, ActivityIndicator } from 'react-native';
+>>>>>>> e7e72862 (adding updates and changes)
 import * as ImagePicker from 'expo-image-picker';
 import * as Speech from 'expo-speech';
 import { supabase } from './supabaseClient';
@@ -93,7 +97,11 @@ export default function App() {
       <Text style={styles.subtitle}>Upload clothes, view your items and get spoken feedback.</Text>
       {error && <Text style={styles.error}>{error}</Text>}
       <View style={styles.buttonRow}>
+<<<<<<< HEAD
         <Button title={uploading ? 'Uploading…' : 'Pick Image'} onPress={pickAndUpload} disabled={uploading} />
+=======
+        <Button title={uploading ? 'Uploading...' : 'Pick Image'} onPress={pickAndUpload} disabled={uploading} />
+>>>>>>> e7e72862 (adding updates and changes)
         <Button title="Speak" onPress={speakSummary} />
       </View>
       {refreshing && <ActivityIndicator style={{ marginVertical: 10 }} />}
@@ -146,4 +154,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#eee',
   },
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> e7e72862 (adding updates and changes)

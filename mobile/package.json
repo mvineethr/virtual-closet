@@ -2,7 +2,11 @@
   "name": "virtual-closet-mobile",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "main": "App.js",
+=======
+  "main": "index.js",
+>>>>>>> e7e72862 (adding updates and changes)
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,6 +14,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+<<<<<<< HEAD
     "expo": "^51.0.0",
     "react": "18.2.0",
     "react-native": "0.73.0"
@@ -20,3 +25,15 @@
   },
   "devDependencies": {}
 }
+=======
+    "@supabase/supabase-js": "^2.39.5",
+    "expo": "^51.0.0",
+    "expo-image-picker": "~17.0.10",
+    "expo-location": "~17.0.1",
+    "expo-speech": "~14.0.8",
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "react-native-url-polyfill": "^3.0.0"
+  }
+}
+>>>>>>> e7e72862 (adding updates and changes)
