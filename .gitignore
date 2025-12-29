@@ -1,22 +1,10 @@
-# Dependencies
 node_modules/
+web/node_modules/
+mobile/node_modules/
+.DS_Store
 npm-debug.log*
-yarn.lock
-pnpm-lock.yaml
-
-# Build outputs
-.next/
-dist/
-
-# Expo local directories
-.expo/
-.expo-shared/
-
-# Environment files
+yarn-debug.log*
+yarn-error.log*
 .env
 .env.local
-
-# OS and editor artefacts
-.DS_Store
-Thumbs.db
-.vscode/
+.env.*.local

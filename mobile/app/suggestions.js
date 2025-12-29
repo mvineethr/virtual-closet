@@ -1,1 +1,1 @@
-export { default } from '../screens/SuggestionsScreen';
+export { default } from "../screens/SuggestionsScreen";

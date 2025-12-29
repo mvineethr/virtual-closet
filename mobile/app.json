@@ -4,7 +4,10 @@
     "slug": "virtual-closet",
     "version": "0.1.0",
     "orientation": "portrait",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "sdkVersion": "51.0.0",
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -27,7 +30,8 @@
         {
           "photosPermission": "This app needs access to your photos so you can upload items to your virtual closet."
         }
-      ]
+      ],
+      "expo-router"
     ]
   }
 }

@@ -1,1 +1,1 @@
-export { default } from '../screens/MannequinScreen';
+export { default } from "../screens/MannequinScreen";

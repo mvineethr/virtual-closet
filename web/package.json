@@ -8,18 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "next": "14.1.4",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "@supabase/supabase-js": "^2.39.5",
-    "@react-three/fiber": "^8.13.1",
-    "@react-three/drei": "^9.43.2",
-    "three": "^0.154.0"
-  },
-  "devDependencies": {}
-}
-=======
     "@react-three/drei": "^9.43.2",
     "@react-three/fiber": "^8.13.1",
     "@supabase/supabase-js": "^2.39.5",
@@ -32,4 +20,3 @@
     "typescript": "5.9.3"
   }
 }
->>>>>>> e7e72862 (adding updates and changes)
